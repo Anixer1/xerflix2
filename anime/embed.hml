@@ -3,7 +3,7 @@
 
 <head>
     <link rel="icon" type="image/x-icon" href="../favicon.ico" />
-    <title>RgShows VideoPlayer</title>
+    <title>XerFlix VideoPlayer</title>
     <script src="../js/devtoolsdetetctor.js" preload></script>
     <script src="../js/nocheats.js" preload></script>
     <link href="./css/index.css" rel="stylesheet" />
@@ -97,14 +97,14 @@
     <script src="https://cdn.jsdelivr.net/npm/plyr@3/dist/plyr.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
     <script src="https://unpkg.com/plyr@3"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHQX4066ZV"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Text here"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() {
             dataLayer.push(arguments);
         }
         gtag("js", new Date());
-        gtag("config", "G-BHQX4066ZV");
+        gtag("config", "text here");
     </script>
     <iframe src="../views.html" style="display: none;" id="viewsFrame"></iframe>
     <script>

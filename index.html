@@ -2087,6 +2087,10 @@
                     icon: "film",
                     text: "Movies"
                 }, {
+                    icon: "anime",
+                    text: "Anime",
+                    url: "./anime.html"   
+                }, {
                     icon: "tv",
                     text: "Shows"
                 }, {
@@ -2214,10 +2218,10 @@
             "autoembed.cc": {
                 name: "autoembed.cc",
                 movieUrl: function({id: e}) {
-                    return `https://player.autoembed.cc/embed/movie/${e}`
+                    return `https://player.autoembed.cc/embed/movie/${e}?server=3`
                 },
                 showUrl: function({id: e, season: t, episode: n}) {
-                    return `https://player.autoembed.cc/embed/tv/${e}/${t}/${n}`
+                    return `https://player.autoembed.cc/embed/tv/${e}/${t}/${n}?server=3`
                 }
             },
             "autoembed.co": {
